@@ -1,0 +1,257 @@
+{
+	"code": "200",
+	"message": "Successful",
+	"data": [
+		{
+			"symbol": "USDT",
+			"data": [
+				{
+					"symbol": "btc_usdt",
+					"pairSymbol": "btc_usdt",
+					"name": "btc",
+					"nameEn": "btc",
+					"img": "img/L_58.png",
+					"priceForCny": 11.00,
+					"priceForUsdt": 232323,
+					"volume24Hour": 0E-8,
+					"increase": -0.1222,
+					"highPriceToday": 0E-8,
+					"lowPriceToday": 0E-8,
+					"day7KLine": [5060, 5000, 4000, 4500, 5000, 3050, 5000, 5000, 3050, 5000, 5000, 4000, 4500, 5000, 3050, 5000, 5000, 3050, 5000]
+				}, {
+					"symbol": "zec_usdt",
+					"pairSymbol": "zec_usdt",
+					"name": "ZEC",
+					"nameEn": "ZEC",
+					"img": "img/L_58.png",
+					"priceForCny": 0.10,
+					"priceForUsdt": null,
+					"volume24Hour": 0E-8,
+					"increase": 0.1222,
+					"highPriceToday": 0E-8,
+					"lowPriceToday": 0E-8,
+					"day7KLine": [5000, 4000, 4500, 5000, 4500, 3500, 3000]
+				}, {
+					"symbol": "xrp_usdt",
+					"pairSymbol": "xrp_usdt",
+					"name": "XRP",
+					"nameEn": "XRP",
+					"img": "img/L_58.png",
+					"priceForCny": 1.00,
+					"priceForUsdt": null,
+					"volume24Hour": 0E-8,
+					"increase": 1.00,
+					"highPriceToday": 0E-8,
+					"lowPriceToday": 0E-8,
+					"day7KLine": [5060, 5000, 4000, 4500, 5000, 3050, 5000]
+				}, {
+					"symbol": "iota_usdt",
+					"pairSymbol": "iota_usdt",
+					"name": "IOTA",
+					"nameEn": "IOTA",
+					"img": "img/L_58.png",
+					"priceForCny": 1.00,
+					"priceForUsdt": null,
+					"volume24Hour": 111.00000000,
+					"increase": 1.00,
+					"highPriceToday": 1.00000000,
+					"lowPriceToday": 1.00000000,
+					"day7KLine": [5060, 5000, 4000, 4500, 5000, 3050, 5000]
+				}, {
+					"symbol": "eth_usdt",
+					"pairSymbol": "eth_usdt",
+					"name": "eth",
+					"nameEn": "eth",
+					"img": "img/L_58.png",
+					"priceForCny": 1.00,
+					"priceForUsdt": null,
+					"volume24Hour": 0E-8,
+					"increase": 1.00,
+					"highPriceToday": 0E-8,
+					"lowPriceToday": 0E-8,
+					"day7KLine": [5060, 5000, 4000, 4500, 5000, 3050, 5000]
+				}, {
+					"symbol": "eos_usdt",
+					"pairSymbol": "eos_usdt",
+					"name": "eos",
+					"nameEn": "eos",
+					"img": "img/L_58.png",
+					"priceForCny": 1.00,
+					"priceForUsdt": null,
+					"volume24Hour": 0E-8,
+					"increase": 1.00,
+					"highPriceToday": 0E-8,
+					"lowPriceToday": 0E-8,
+					"day7KLine": [5060, 5000, 4000, 4500, 5000, 3050, 5000]
+				}, {
+					"symbol": "dash_usdt",
+					"pairSymbol": "dash_usdt",
+					"name": "DASH",
+					"nameEn": "DASH",
+					"img": "img/L_58.png",
+					"priceForCny": 1.00,
+					"priceForUsdt": null,
+					"volume24Hour": 0E-8,
+					"increase": 1.00,
+					"highPriceToday": 0E-8,
+					"lowPriceToday": 0E-8,
+					"day7KLine": [5060, 5000, 4000, 4500, 5000, 3050, 5000]
+				}, {
+					"symbol": "btm_usdt",
+					"pairSymbol": "btm_usdt",
+					"name": "BTM",
+					"nameEn": "BTM",
+					"img": "img/L_58.png",
+					"priceForCny": 1.00,
+					"priceForUsdt": null,
+					"volume24Hour": 0E-8,
+					"increase": 1.00,
+					"highPriceToday": 0E-8,
+					"lowPriceToday": 0E-8,
+					"day7KLine": [5060, 5000, 4000, 4500, 5000, 3050, 5000]
+				}
+			]
+		}, {
+			"symbol": "BTC",
+			"data": [
+				{
+					"symbol": "xrp_btc",
+					"pairSymbol": "xrp_btc",
+					"name": "XRP",
+					"nameEn": "XRP",
+					"img": "img/L_58.png",
+					"priceForCny": 1.00,
+					"priceForUsdt": null,
+					"volume24Hour": 0E-8,
+					"increase": 1.00,
+					"highPriceToday": 0E-8,
+					"lowPriceToday": 0E-8,
+					"day7KLine": [5060, 5000, 4000, 4500, 5000, 3050, 5000]
+				}, {
+					"symbol": "iota_btc",
+					"pairSymbol": "iota_btc",
+					"name": "IOTA",
+					"nameEn": "IOTA",
+					"img": "img/L_58.png",
+					"priceForCny": null,
+					"priceForUsdt": null,
+					"volume24Hour": 0E-8,
+					"increase": null,
+					"highPriceToday": 0E-8,
+					"lowPriceToday": 0E-8,
+					"day7KLine": [5060, 5000, 4000, 4500, 5000, 3050, 5000]
+				}
+			]
+		}, {
+			"symbol": "ETH",
+			"data": [
+				{
+					"symbol": "btc_eth",
+					"pairSymbol": "btc_eth",
+					"name": "btc",
+					"nameEn": "btc",
+					"img": "img/L_58.png",
+					"priceForCny": 1.00,
+					"priceForUsdt": null,
+					"volume24Hour": 0E-8,
+					"increase": 1.00,
+					"highPriceToday": 0E-8,
+					"lowPriceToday": 0E-8,
+					"day7KLine": [5060, 5000, 4000, 4500, 5000, 3050, 5000]
+				}, {
+					"symbol": "zec_eth",
+					"pairSymbol": "zec_eth",
+					"name": "ZEC",
+					"nameEn": "ZEC",
+					"img": "img/L_58.png",
+					"priceForCny": 1.00,
+					"priceForUsdt": null,
+					"volume24Hour": 0E-8,
+					"increase": 1.00,
+					"highPriceToday": 0E-8,
+					"lowPriceToday": 0E-8,
+					"day7KLine": [5060, 5000, 4000, 4500, 5000, 3050, 5000]
+				}, {
+					"symbol": "xrp_eth",
+					"pairSymbol": "xrp_eth",
+					"name": "XRP",
+					"nameEn": "XRP",
+					"img": "img/L_58.png",
+					"priceForCny": 1.00,
+					"priceForUsdt": null,
+					"volume24Hour": 0E-8,
+					"increase": 1.00,
+					"highPriceToday": 0E-8,
+					"lowPriceToday": 0E-8,
+					"day7KLine": [5060, 5000, 4000, 4500, 5000, 3050, 5000]
+				}, {
+					"symbol": "iota_eth",
+					"pairSymbol": "iota_eth",
+					"name": "IOTA",
+					"nameEn": "IOTA",
+					"img": "img/L_58.png",
+					"priceForCny": 1.00,
+					"priceForUsdt": null,
+					"volume24Hour": 0E-8,
+					"increase": 1.00,
+					"highPriceToday": 0E-8,
+					"lowPriceToday": 0E-8,
+					"day7KLine": [5060, 5000, 4000, 4500, 5000, 3050, 5000]
+				}, {
+					"symbol": "eos_eth",
+					"pairSymbol": "eos_eth",
+					"name": "eos",
+					"nameEn": "eos",
+					"img": "img/L_58.png",
+					"priceForCny": 1.00,
+					"priceForUsdt": null,
+					"volume24Hour": 0E-8,
+					"increase": 1.00,
+					"highPriceToday": 0E-8,
+					"lowPriceToday": 0E-8,
+					"day7KLine": [5060, 5000, 4000, 4500, 5000, 3050, 5000]
+				}, {
+					"symbol": "dash_eth",
+					"pairSymbol": "dash_eth",
+					"name": "DASH",
+					"nameEn": "DASH",
+					"img": "img/L_58.png",
+					"priceForCny": 1.00,
+					"priceForUsdt": null,
+					"volume24Hour": 0E-8,
+					"increase": 1.00,
+					"highPriceToday": 0E-8,
+					"lowPriceToday": 0E-8,
+					"day7KLine": [5060, 5000, 4000, 4500, 5000, 3050, 5000]
+				}, {
+					"symbol": "btm_eth",
+					"pairSymbol": "btm_eth",
+					"name": "BTM",
+					"nameEn": "BTM",
+					"img": "img/L_58.png",
+					"priceForCny": 1.00,
+					"priceForUsdt": null,
+					"volume24Hour": 0E-8,
+					"increase": 1.00,
+					"highPriceToday": 0E-8,
+					"lowPriceToday": 0E-8,
+					"day7KLine": [5060, 5000, 4000, 4500, 5000, 3050, 5000]
+				}, {
+					"symbol": "zec_btc",
+					"pairSymbol": "zec_btc",
+					"name": "ZEC",
+					"nameEn": "ZEC",
+					"img": "img/L_58.png",
+					"priceForCny": 1.00,
+					"priceForUsdt": null,
+					"volume24Hour": 0E-8,
+					"increase": 1.00,
+					"highPriceToday": 0E-8,
+					"lowPriceToday": 0E-8,
+					"day7KLine": [5060, 5000, 4000, 4500, 5000, 3050, 5000]
+				}
+			]
+		}
+	],
+	"ext": null
+}

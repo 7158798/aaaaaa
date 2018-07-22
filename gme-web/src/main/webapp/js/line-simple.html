@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html style="height: 100%">
+   <head>
+       <meta charset="utf-8">
+       <style>
+       	.curve{
+       		width: 290px;
+       		height: 50px;
+       		margin-bottom: 20px;
+       	}
+       </style>
+   </head>
+   <body style="height: 100%; margin: 0">
+   		<div id="ldf">
+   			
+   		</div>
+       <script type="text/javascript" src="echarts.js" ></script>
+       <script type="text/javascript" src="jquery-3.3.1.min.js" ></script>
+       <script type="text/javascript">
+       	function ldd(){
+       		$("#ldf").append("<div class='curve'></div><div class='curve'></div><div class='curve'></div><div class='curve'></div><div class='curve'></div><div class='curve'></div>");
+       	}ldd();
+function tdsda(){
+	var option = {
+	xAxis: [{
+		nameTextStyle: { //名称的样式
+			// color:'#999',
+			fontSize: '12px'
+		},
+		nameGap: 0, //名称与X轴的距离
+		boundaryGap: true, //坐标的刻度是否在中间
+		axisTick: { //坐标轴刻度相关设置
+			length: '1' //我把长度设置成0了
+		},
+		axisLabel: { //坐标轴刻度标签
+			margin: 10, //刻度标签与轴线之间的距离
+		},
+		data: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10']
+
+	}], //X轴设置
+	yAxis: [{
+		show: false
+	}],
+	series: [ //系列列表
+		{
+
+			symbol: 'none', //取消点
+			type: 'line',
+			data: [5060, 5000, 4000, 4500, 5000, 3050, 5000],
+			itemStyle: { //折线拐点的样式
+				normal: {
+					// color:'#20aefc',  //折线拐点的颜色
+
+				}
+			},
+			lineStyle: {
+				color: 'red' //线的颜色设置
+			},
+		}
+
+	]
+
+};
+// 使用刚指定的配置项和数据显示图表。
+
+
+//曲线图
+var eleList = document.querySelectorAll('.curve');
+
+for(var i = 0; i < eleList.length; i++) {
+	var item = eleList[i];
+	var mychart = echarts.init(item);
+	mychart.setOption(option);
+}
+
+}
+setTimeout("tdsda()",2000);
+       </script>
+   </body>
+</html>

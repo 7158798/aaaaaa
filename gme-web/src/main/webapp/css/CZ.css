@@ -1,0 +1,126 @@
+
+/****************************** 
+************CSS重置************ 
+******************************/
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+	margin: 0;
+	padding: 0;
+}
+fieldset,
+img {
+	border: 0;
+}
+ol,
+ul {
+	list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button,
+input,
+select,
+textarea {
+	font-size: 100%;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+i,
+cite,
+em,
+var,
+dfn,
+address {
+	font-style: normal;
+}
+body {
+	font: 16px/1.6 "Microsoft YaHei", "微软雅黑", Arial, Helvetica, sans-serif;
+}
+a {
+	color: #7f7f7f;
+	text-decoration: none;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+}
+a {
+	blr: expression(this.onFocus=this.blur());
+}
+a {
+	outline: none;
+}
+a:focus {
+	outline: none;
+}
+a:hover {
+	text-decoration: none;
+	cursor:pointer;
+}
+a:active,
+a:focus {
+	outline: none
+}
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	font-size: 0;
+}
+.clearfix {
+	zoom: 1;
+	clear: both;
+}
+.clear {
+	clear: both;
+	height: 0;
+	line-height: 0;
+	font-size: 0;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+
+.clear:after {
+	display: block;
+	content: '';
+	clear: both;
+}

@@ -1,0 +1,68 @@
+{
+	"USDT": {
+		"btm_usdt": {
+			"no": 24,
+			"symbol": "BTM",
+			"name": "Bytom",
+			"name_en": "Bytom",
+			"name_cn": "比原链",
+			"pair": "btm_usdt",
+			"rate": "0.7739",
+			"vol_a": "18086889.8363227225",
+			"vol_b": "13,028,020",
+			"curr_a": "BTM",
+			"curr_b": "USDT",
+			"curr_suffix": " USDT",
+			"rate_percent": "26.15",
+			"rate_percent_str": "<font color=green id='leftbarupdn'>+26.15 %<\/font>",
+			"trend": "up",
+			"supply": 2100000000,
+			"marketcap": "1,625,190,000",
+			"coin_icon": ""
+		}
+	},
+	"BTC": {
+		"eth_btc": {
+			"no": 2,
+			"symbol": "ETH",
+			"name": "Ethereum",
+			"name_en": "Ethereum",
+			"name_cn": "以太币",
+			"pair": "eth_btc",
+			"rate": "0.0840",
+			"vol_a": "410.769983055",
+			"vol_b": "34.84",
+			"curr_a": "ETH",
+			"curr_b": "BTC",
+			"curr_suffix": " BTC",
+			"rate_percent": "-1.87",
+			"rate_percent_str": "<font color=red id='leftbarupdn'>-1.87 %<\/font>",
+			"trend": "down",
+			"supply": 94886500,
+			"marketcap": "7,970,371",
+			"coin_icon": ""
+		}
+	},
+	"ETH": {
+		"skm_eth": {
+			"no": 60,
+			"symbol": "SKM",
+			"name": "\tSkrumble",
+			"name_en": "\tSkrumble",
+			"name_cn": "Skrumble",
+			"pair": "skm_eth",
+			"rate": "0.000144",
+			"vol_a": "27835234.6665517171",
+			"vol_b": "3,345.12",
+			"curr_a": "SKM",
+			"curr_b": "ETH",
+			"curr_suffix": " ETH",
+			"rate_percent": "11.46",
+			"rate_percent_str": "<font color=green id='leftbarupdn'>+11.46 %<\/font>",
+			"trend": "up",
+			"supply": 1500000000,
+			"marketcap": "215,850",
+			"coin_icon": ""
+		}
+	}
+}

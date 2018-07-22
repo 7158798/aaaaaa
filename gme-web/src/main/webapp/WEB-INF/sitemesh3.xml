@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemesh>
+
+    <!--默认情况下，
+         sitemesh 只对 HTTP 响应头中 Content-Type 为 text/html 的类型进行拦截和装饰，
+          我们可以添加更多的 mime 类型-->
+    <!-- <mime-type>text/html</mime-type>
+    <mime-type>application/vnd.wap.xhtml+xml</mime-type>
+    <mime-type>application/xhtml+xml</mime-type> -->
+
+
+    <content-processor>
+        <tag-rule-bundle class="com.gmebtc.web.portal.common.MyTagRuleBundle" />
+    </content-processor>
+
+
+	
+	<!--账户相关的页面 -->
+    <mapping path="/accounts.html" decorator="/decorator/accountMenu.jsp"/>
+    <mapping path="/commission.html" decorator="/decorator/accountMenu.jsp"/>
+    <mapping path="/bill.html" decorator="/decorator/accountMenu.jsp"/>
+    <mapping path="/myDeity.html" decorator="/decorator/accountMenu.jsp"/>
+    <mapping path="/transRecord.html" decorator="/decorator/accountMenu.jsp"/>
+    <mapping path="/c2cTransRecord.html" decorator="/decorator/accountMenu.jsp"/>
+    <mapping path="/c2cBusTransRecord.html" decorator="/decorator/accountMenu.jsp"/>
+    <mapping path="/rechargeRecord.html" decorator="/decorator/accountMenu.jsp"/>
+    <mapping path="/withdrawRecord.html" decorator="/decorator/accountMenu.jsp"/>
+    <mapping path="/walletAddressManager.html" decorator="/decorator/accountMenu.jsp"/>
+    <mapping path="/USDTWithdraw.html" decorator="/decorator/accountMenu.jsp"/>
+    <mapping path="/recharge.html" decorator="/decorator/accountMenu.jsp"/>
+    <!-- 安全相关 -->
+  	<mapping path="/securityLog.html" decorator="/decorator/securityMenu.jsp"/>
+    <mapping path="/paySetting.html" decorator="/decorator/securityMenu.jsp"/>
+    <mapping path="/withdrawDoubleValida.html" decorator="/decorator/securityMenu.jsp"/>
+    <mapping path="/bindEmail.html" decorator="/decorator/securityMenu.jsp"/>
+    <mapping path="/api.html" decorator="/decorator/securityMenu.jsp"/>
+    <mapping path="/secondLoginProtect.html" decorator="/decorator/securityMenu.jsp"/>
+    <mapping path="/bindPhone.html" decorator="/decorator/securityMenu.jsp"/>
+    <mapping path="/realNameAuth.html" decorator="/decorator/securityMenu.jsp"/>
+    
+    <!-- 只有头部和底部的装饰页面 -->
+    <mapping path="/firstLogin.html" decorator="/decorator/topAndButtom.jsp"></mapping>
+    <mapping path="/register.html" decorator="/decorator/topAndButtom.jsp"></mapping>
+    <mapping path="/secondLogin.html" decorator="/decorator/topAndButtom.jsp"></mapping>
+    <mapping path="/c2cTrans.html" decorator="/decorator/topAndButtom.jsp"></mapping>
+    <mapping path="/bbTrans.html" decorator="/decorator/topAndButtom.jsp"></mapping>
+    <mapping path="/notice.html" decorator="/decorator/topAndButtom.jsp"></mapping>
+    <mapping path="/noticeDetail.html" decorator="/decorator/topAndButtom.jsp"></mapping>
+    <mapping path="/currencyDetail.html" decorator="/decorator/topAndButtom.jsp"></mapping>
+    <mapping path="/myWorkList.html" decorator="/decorator/topAndButtom.jsp"></mapping>
+    <mapping path="/workListDetail.html" decorator="/decorator/topAndButtom.jsp"></mapping>
+    <mapping path="/resetPassword.html" decorator="/decorator/topAndButtom.jsp"></mapping>
+    <mapping path="/resetPayPassword.html" decorator="/decorator/topAndButtom.jsp"></mapping>
+    
+	
+
+
+</sitemesh>

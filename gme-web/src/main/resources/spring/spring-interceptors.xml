@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.3.xsd
+                            http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd
+                            http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <mvc:interceptors>
+    	<!--拦截判断当前的locale-->
+        <mvc:interceptor>
+	        <mvc:mapping path="/**" />
+	        <mvc:exclude-mapping path="/css/**" />
+	        <mvc:exclude-mapping path="/img/**" />
+	        <mvc:exclude-mapping path="/js/**" />
+	        <bean class="com.gmebtc.web.portal.filter.Interceptor" />
+   		</mvc:interceptor>
+   		
+   		<!-- 拦截判断用户是否登录 -->
+   		 <mvc:interceptor>
+	        <!-- <mvc:mapping path="/**" />
+	        <mvc:exclude-mapping path="/css/**" />
+	        <mvc:exclude-mapping path="/img/**" />
+	        <mvc:exclude-mapping path="/js/**" />
+	        <mvc:exclude-mapping path="/index.html"/>
+	        <mvc:exclude-mapping path="/firstLogin.html"/>
+	        <mvc:exclude-mapping path="/secondLogin.html"/>
+	        <mvc:exclude-mapping path="/register.html"/>
+	        <mvc:exclude-mapping path="/c2cTrans.html"/>
+	        <mvc:exclude-mapping path="/bbTrans.html"/>
+	        <mvc:exclude-mapping path="/notice.html"/> -->
+	       
+	        
+	        
+   			<mvc:mapping path="/realNameAuth.html"/>
+	        <mvc:mapping path="/bindPhone.html"/>
+   			<mvc:mapping path="/secondLoginProtect.html"/>
+   			<mvc:mapping path="/resetPassword.html"/>
+   			<mvc:mapping path="/resetPayPassword.html"/>
+   			<mvc:mapping path="/bindEmail.html"/>
+   			<mvc:mapping path="/withdrawDoubleValida.html"/>
+   			<mvc:mapping path="/paySetting.html"/>
+	        <mvc:mapping path="/securityLog.html"/>
+	        
+	        <mvc:mapping path="/accounts.html"/>
+	        <mvc:mapping path="/bill.html"/>
+	        <mvc:mapping path="/myDeity.html"/>
+	        <mvc:mapping path="/transRecord.html"/>
+	        <mvc:mapping path="/c2cTransRecord.html"/>
+	        <mvc:mapping path="/c2cBusTransRecord.html"/>
+	        <mvc:mapping path="/rechargeRecord.html"/>
+	        <mvc:mapping path="/withdrawRecord.html"/>
+	        <mvc:mapping path="/walletAddressManager.html"/>
+	        <mvc:mapping path="/USDTWithdraw.html"/>
+	        <mvc:mapping path="/recharge.html"/>
+	        
+	        
+	        <mvc:mapping path="/myWorkList.html"/>
+	        <mvc:mapping path="/workListDetail.html"/>
+	        
+	        
+	        
+	        <bean class="com.gmebtc.web.portal.filter.UserLoginFilter" />
+   		</mvc:interceptor>
+   		
+   		<!-- 检查用户信息 -->
+   		<mvc:interceptor>
+   			
+   			<mvc:mapping path="/realNameAuth.html"/>
+   			<mvc:mapping path="/bindPhone.html"/>
+   			<mvc:mapping path="/secondLoginProtect.html"/>
+   			<mvc:mapping path="/bindEmail.html"/>
+   			<mvc:mapping path="/withdrawDoubleValida.html"/>
+   			<mvc:mapping path="/paySetting.html"/>
+   			<mvc:mapping path="/securityLog.html"/>
+   			
+   			<mvc:mapping path="/accounts.html"/>
+	        <mvc:mapping path="/bill.html"/>
+	        <mvc:mapping path="/transRecord.html"/>
+	        <mvc:mapping path="/c2cTransRecord.html"/>
+	        <mvc:mapping path="/c2cBusTransRecord.html"/>
+	        <mvc:mapping path="/rechargeRecord.html"/>
+	        <mvc:mapping path="/withdrawRecord.html"/>
+	        <mvc:mapping path="/walletAddressManager.html"/>
+	        <mvc:mapping path="/USDTWithdraw.html"/>
+   			
+	        <mvc:mapping path="/myWorkList.html"/>
+	        
+	        <mvc:mapping path="/secondLogin.html"/>
+	        
+	        <mvc:mapping path="/c2cTrans.html"/>
+	        
+   			<bean class="com.gmebtc.web.portal.filter.CheckUserInfoFilter"></bean>
+   		</mvc:interceptor>
+   	</mvc:interceptors>
+
+	
+</beans>

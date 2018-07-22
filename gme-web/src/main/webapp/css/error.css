@@ -1,0 +1,15 @@
+@CHARSET "UTF-8";
+body{width:100%;height:100%;background:#a0d9f6;font-family: '微软雅黑';color:#50575d;}
+.errorBA{background:white;height:355px;width:355px;-webkit-border-radius: 355px;-moz-border-radius: 355px;border-radius: 355px;margin: 100px auto;text-align: center;}
+.errorPic{width: 66px;height: 54px;background: url('images/common/error.png') -50px -37px no-repeat;display: inline-block;margin: 70px 0 0 0;}
+.errorBA h3{margin-top:-20px;}
+.errorBA a{color:#50575d;}
+.errorBA p{font-size:12px;margin-top: -12px;}
+.errorBA strong{font-size:14px;}
+.margin0{margin-top:0px!important;}
+.width150{width:128px;margin: 300px auto;}
+.width150 p{font-size:14px;color:white;float:left;font-weight: bold;}
+.width150 div{width: 62px;height: 84px;float: right;background: url('images/common/error.png') -184px -34px no-repeat;margin: -44px 0 0 0;color:#5ec3e1;font-size:15px;font-weight: bold;text-align: center;line-height: 49px;}
+.loading {position: fixed;top: 0;left: 0;width: 100%;height: 100%;opacity: 0.5;filter: alpha(opacity=50);background-color: #0F0F0F;z-index: 1000;}
+.loading div{position: relative;background: url('images/common/loading.png') center center no-repeat;color:#5ec3e1;font-size:16px;font-weight: bold;text-align: center;height: 500px;line-height: 500px;}
+.loading p{font-size: 14px;position: absolute;top: 38px;left: 44%;z-index: 1001;}
